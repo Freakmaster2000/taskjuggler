@@ -176,7 +176,6 @@ task WMGame "Web & Mobile Game" {
   task tcloud "Cloud Computing support for Backend"{
     purge chargeset
     chargeset back
-    effort 3d
     responsible dev1
     depends WMGame.tback
     task tCSel "Cloud Service Selection" {
